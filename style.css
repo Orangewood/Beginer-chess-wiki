@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+
+body{
+  min-width: 320px;
+}
+
+header{
+  
+}
+
+#head1{
+  text-align: center; 
+  margin: 10px;
+}
+
+#headhonco{
+  width: 60%;
+  height: 100%; 
+}
+
+#navbar{
+  position:fixed;
+  min-width: 270px;
+  width: 250px;
+  height: 100%;
+  top: 0;
+  left: 0; 
+  border-right: solid; 
+}
+
+#navbar ul{ 
+  padding: 0; 
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+#navbar li{
+  list-type: none;
+  border-top: 1px solid;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a{
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+#main-doc{
+  position: absolute;
+  margin-left: 300px;
+  font-family: 'Asap Condensed', sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+#boardpic{
+  width: 300px;
+  margin-left: 350px;
+}
+
+#pawnmove{
+  margin-left: 350px;
+}
+#knightmove{
+  margin-left: 350px;
+}
+#bishopmove{
+  margin-left: 350px;
+}
+#rookmove{
+  margin-left: 350px;
+}
+#queenmove{
+  margin-left: 350px;
+}
+#kingmove{
+  margin-left: 350px;
+}
+#castlemove{
+  margin-left:350px;
+}
+#enpassantmove{
+  margin-left: 350px;
+}
+
+@media only screen and (max-width: 900px){
+  body{
+    background-color: white;
+  }
+  
+}
